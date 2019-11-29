@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+<meta charset="utf-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+<meta name="author" content="METATOUR" />
+
+
+<title>BARCELONA GROUP</title>
+
+<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/cosmo.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/jqueryui-1.11.4/jquery-ui.min.js"></script>
+<link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
+<script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/textmate.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+
+<style type="text/css">code{white-space: pre;}</style>
+<style type="text/css">
+  pre:not([class]) {
+    background-color: white;
+  }
+</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+<style type="text/css">
+h1 {
+  font-size: 34px;
+}
+h1.title {
+  font-size: 38px;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 24px;
+}
+h4 {
+  font-size: 18px;
+}
+h5 {
+  font-size: 16px;
+}
+h6 {
+  font-size: 12px;
+}
+.table th:not([align]) {
+  text-align: left;
+}
+</style>
+
+<link rel="stylesheet" href="FORMATO.css" type="text/css" />
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+code {
+  color: inherit;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+</style>
+
+
+<style type="text/css">
+/* padding for bootstrap navbar */
+body {
+  padding-top: 51px;
+  padding-bottom: 40px;
+}
+/* offset scroll position for anchor links (for fixed navbar)  */
+.section h1 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h2 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h3 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h4 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h5 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h6 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #ffffff;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script>
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.parent().addClass('active');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+<style type="text/css">
+
+#TOC {
+  margin: 25px 0px 20px 0px;
+}
+@media (max-width: 768px) {
+#TOC {
+  position: relative;
+  width: 100%;
+}
+}
+
+
+.toc-content {
+  padding-left: 30px;
+  padding-right: 40px;
+}
+
+div.main-container {
+  max-width: 1200px;
+}
+
+div.tocify {
+  width: 20%;
+  max-width: 260px;
+  max-height: 85%;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  div.tocify {
+    width: 25%;
+  }
+}
+
+@media (max-width: 767px) {
+  div.tocify {
+    width: 100%;
+    max-width: none;
+  }
+}
+
+.tocify ul, .tocify li {
+  line-height: 20px;
+}
+
+.tocify-subheader .tocify-item {
+  font-size: 0.90em;
+}
+
+.tocify .list-group-item {
+  border-radius: 0px;
+}
+
+
+</style>
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+<!-- setup 3col/9col grid for toc_float and main content  -->
+<div class="row-fluid">
+<div class="col-xs-12 col-sm-4 col-md-3">
+<div id="TOC" class="tocify">
+</div>
+</div>
+
+<div class="toc-content col-xs-12 col-sm-8 col-md-9">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">CE Events</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="index.html">Quotation</a>
+</li>
+<li>
+  <a href="about.html">Credentials</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div class="fluid-row" id="header">
+
+
+
+<h1 class="title toc-ignore">BARCELONA GROUP</h1>
+<h4 class="author">METATOUR</h4>
+<h4 class="date">May 16th to May 18th, 2020</h4>
+
+</div>
+
+
+<script> 
+    $(document).ready(function() { 
+    $head = $('#header'); 
+    $head.prepend('<A href = https://www.cuttingedge-events.com><img src ="LOGO.png" width="150" vspace="50" align="right"></A>') 
+    }); 
+</script>
+<div id="accomodation" class="section level2">
+<h2>ACCOMODATION</h2>
+<div id="main-hotel-catalonia-plaza-catalunya" class="section level3">
+<h3><em><strong>Main Hotel: Catalonia Plaza Catalunya</strong></em></h3>
+<iframe src="Catalonia Plaza Catalunya/cataloniaplazacat.html" frameborder="0" width="100%" height="1100" scrolling="no">
+</iframe>
+</div>
+<div id="alternative-hotels" class="section level3 tabset tabset-fade tabset-pills">
+<h3><strong>Alternative Hotels</strong></h3>
+<div id="h10-metropolitan" class="section level4">
+<h4>H10 Metropolitan</h4>
+<iframe src="H10 Metropolitan/H10Metropolitan.html" frameborder="0" width="100%" height="1100" scrolling="no">
+</iframe>
+<iframe width="100%" height="450" src="https://www.youtube.com/embed/KJthH7IU8Xo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+</iframe>
+<p><br></p>
+</div>
+<div id="the-corner-hotel" class="section level4">
+<h4>The Corner Hotel</h4>
+<iframe src="The Corner/Corner.html" frameborder="0" width="100%" height="1100" scrolling="no">
+</iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/MOn_FCFsdDQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+</iframe>
+<p><br></p>
+</div>
+</div>
+</div>
+<div id="timeline-and-program" class="section level2">
+<h2>TIMELINE AND PROGRAM</h2>
+<iframe src="https://cdn.knightlab.com/libs/timeline3/latest/embed/index.html?source=1rcztc7Z29TBIr4GOwhcV-_GUc11N35eoIjWkV2sUUXM&amp;font=Default&amp;lang=en&amp;initial_zoom=2&amp;height=500" width="100%" height="650" webkitallowfullscreen mozallowfullscreen allowfullscreen frameborder="0">
+</iframe>
+<div id="day-1---may-16th-2020" class="section level3">
+<h3>DAY 1 - May 16th, 2020</h3>
+<p><strong>Activity - Estrella Damm brewery</strong></p>
+<p>Calculating the arrival time by 15:00 - 16:00. Cutting Edge Events staff will welcome the group at Barcelona airport and will scort the group to the first activity, a visit to the most well-known catalan beer, Estrella Damm factory. As the group will have a bus at disposal for the activity, guests will keep the luggage inside the bus trunk.</p>
+<p>Estrella Damm factory is just 10 minutes form Barcelona airport, and the visit will take about 1h30 - 2h.</p>
+<ul>
+<li><strong>Location</strong> El Prat del Llobregat</li>
+<li><strong>Duration</strong> 2 hours aprox<br />
+</li>
+<li><strong>Capacity</strong> Minimum 8pax - maximum 50pax</li>
+<li><strong>Included</strong> Bus, guided visit, beer tasting.</li>
+</ul>
+<p>Once the activity has finished, guests will go directly to the hotel to check in.</p>
+<p><img src = "estrella1.jpg" width="100%"></p>
+<p><img src = "estrella2.jpg" width="100%"></p>
+<p><strong><em>Dinner - Alba Granados</em></strong></p>
+<p>The first dinner of the trip will be at Alba Granados. This restaurant is located in a walking distance from the hotel, as there are only 10 minutes by walking.</p>
+<iframe src="Alba Granados/AlbaGranados.html" frameborder="0" width="100%" height="1100" scrolling="no">
+</iframe>
+</div>
+<div id="day-2---17th-may-2020" class="section level3">
+<h3>DAY 2 - 17th May, 2020</h3>
+<p>During the second day in the morning the group will enjoy of their free time in Barcelona. Shopping, walking, visiting museums… Guests will have time till 13:00 to do whatever they want.</p>
+<p><strong>Lunch - Flamant</strong></p>
+<p>Lunch time will be by 13:00.</p>
+<iframe src="Flamant/Flamant.html" frameborder="0" width="100%" height="1050" scrolling="no">
+</iframe>
+<p><strong>Activity - Barça’s game</strong></p>
+<p>Figuring out that the game starts at 18:00, we should leave the hotel by 16:30 aproximately, as it turns into a really busy zone when Barcça’s games. If the lunch ends at 15:00 aprox, we will go first to the hotel for a quick fresh up or resting few minutes before gogin to the stadium. At 16:30 the bus will be waiting in font of the hotel to pick up the group and go directly to the stadium.</p>
+<p><img src = "campnou.jpg" width="100%"></p>
+<p><em>This will be the zone where guests will be located</em></p>
+<p><img src = "https://e00-marca.uecdn.es/assets/multimedia/imagenes/2019/08/31/15672695207646.jpg" width="100%"></p>
+<p>After the game, the bus will be waiting out of the stadium, just few meters away from the entrance door. A member of Cutting Edge Events will meet the group outside and will scrot thm from the stadium to the bus. As it will be late, we will go directly to the restaurant as it will be dinner time already (20:00 aproximately). Booking will be at 21:00 as it is really difficult leaving the stadium zone by bus (because of traffic)</p>
+<p><strong>Dinner - Julivert Meu</strong></p>
+<p>The restaurant we suggest for dinner is Julivert Meu. Located also in a walking distance from the hotel, at Oldtown district of thte city, is only 5 minutes by walking.</p>
+<iframe src="JULIVERT MEU/Julivert.html" frameborder="0" width="100%" height="1100" scrolling="no">
+</iframe>
+</div>
+<div id="day-3---18th-may-2020" class="section level3">
+<h3>DAY 3 - 18th May, 2020</h3>
+<p><strong>Activity - E-bike tour and Winery visit</strong></p>
+<p>On the last day we suggest an e-bike tour along the coastline of barcelona finishing at Boquet D’Alella winery, a familiar winery located in Alella, small town 15km from Barcelona. Guests will bring their luggage to the bike shop, as they will bring it out to the winery later. Once they have finished with the activity, a bus will come to the winery to pick up the group and take them to the airport.</p>
+<ul>
+<li><strong>Location</strong> Barcelona - Alella</li>
+<li><strong>Duration</strong> 5 hours aprox<br />
+</li>
+<li><strong>Capacity</strong> Minimum 8pax - maximum 50pax</li>
+<li><strong>Included</strong> E-bike tour, guided visit, wine tasting, lunch at winery and bus transfer to the airport .</li>
+</ul>
+<iframe src="https://uploads.knightlab.com/storymapjs/ee2f18a9c1765fc1a4086f419505950c/ebike-tour/index.html" frameborder="0" width="100%" height="800">
+</iframe>
+<p>When the group arrives to Alella, they will visit this small and familiar winery. They will enjoy of the views of Alella, which is a really small town but with a good living atmosphere. after the visit they will finish the acitvity having a picnic lunch outside (if weather allows us)!</p>
+<p><img src = "bouquetalella.jpg" width="100%"></p>
+<p>Once they’ve finished the bus will pick them up and they will go to the airport for the flight departure.</p>
+<p><img src = "avion.jpg" width="100%"></p>
+<hr />
+</div>
+</div>
+<div id="budget" class="section level2">
+<h2>Budget</h2>
+<iframe src="https://czb20190024budget.netlify.com/" frameborder="0" width="100%" height="1600" scrolling="no">
+</iframe>
+<p><br></p>
+</div>
+<div id="terms-conditions" class="section level2">
+<h2>Terms &amp; Conditions</h2>
+<ul>
+<li><p>Restaurant rates are valid for 2019, it is possible to suffer small changes.</p></li>
+<li><p>Rates valid for a group of 40 pax.</p></li>
+<li><p>Cutting Edge Events management fee including in the detailed rates</p></li>
+<li><p>VAT included.</p></li>
+<li><p>No reservation has been done. Availability upon request.</p></li>
+</ul>
+</div>
+<div id="amaze-your-clients" class="section level2">
+<h2>Amaze your clients!!</h2>
+<div class="client_offer">
+
+<p>
+<p>Didn’t you just love our presentation ? Our first goal here at <em><strong>Cutting Edge Events</strong></em> is to help you <strong>win</strong> this business. You will most likely now collate the information contained in this website and make your own presentation to show your client<br></p>
+<p>
+Why not leverage our technology, and present your client with the same format ? As a <strong>totally free service</strong>, we offer you the possibility of doing the work for you
+</p>
+<p>
+We will:
+<ul>
+<ul>
+<li>Follow your instructions to add anything you want to be in your presentation, and delete anything that you don’t consider relevant
+<ul>
+<li>Include your logo and company details, and remove all our company details</li>
+<li>We can even change some colors to mimic your corporate identity</li>
+<li>We will send you the new link, and it will look as if it was your work</li>
+</ul>
+</ul>
+</p>
+</div></li>
+</ul>
+<style>
+
+.client_offer{
+background-color: #ee7600;
+color: white;
+padding: 10px;
+border: 1px solid black;
+margin-left: 25px;
+margin-right: 25pax;
+border-radius: 5px;
+font-style: italic;
+}
+</style>
+<hr />
+</div>
+
+
+
+</div>
+</div>
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+
+<script>
+$(document).ready(function ()  {
+
+    // move toc-ignore selectors from section div to header
+    $('div.section.toc-ignore')
+        .removeClass('toc-ignore')
+        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
+
+    // establish options
+    var options = {
+      selectors: "h1,h2,h3",
+      theme: "bootstrap3",
+      context: '.toc-content',
+      hashGenerator: function (text) {
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_').toLowerCase();
+      },
+      ignoreSelector: ".toc-ignore",
+      scrollTo: 0
+    };
+    options.showAndHide = true;
+    options.smoothScroll = true;
+
+    // tocify
+    var toc = $("#TOC").tocify(options).data("toc-tocify");
+});
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>
